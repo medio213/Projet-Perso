@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>My First Webpage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                <img class="logo" src="images/LOGO_processed.png" alt="logo USS">
+            </a>
+            </div>
+        
+            <h1 class="titre">Contact</h1>
+            <nav>
+                <ul>
+                        <li><a class="effets" href="index.html">Accueil</a></li>
+                        <li><a class="effets" href="about.html">À propos</a></li>
+                        <li><a class="effets" href="mission.html">Notre Mission</a></li>
+                        <li><a class="effets" href="volontaire.html">Bénévolat</a></li>
+                        <li><a class="effets" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+        <h2>Contactez-nous</h2><br>
+        <p>Vous pouvez nous contacter par téléphone ou par courriel. Nous sommes là pour vous aider.</p>
+<form>
+    <div class="formulaire">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Téléphone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="availability">Date que vous aimeriez commencer :</label>
+        <input type="date" min="2023-01-01" max="2025-12-31">
+
+
+        <label for="message">Pourquoi voulez-vous être bénévole?</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </div>
+</form>
+</section>
+<footer>
+    <p>&copy; Union Soccer Solidaire – Ensemble, jouons pour un avenir meilleur. </p>
+    <a href="" class="lien-icone">
+        <img src="images/instagram.png" alt="Instagram de l'organisme">
+    </a>
+    <a href="https://x.com" class="lien-icone">
+        <img src="images/twitter.png" alt="Twitter">
+        </a>
+        <a href="mailto:Unionsoccer@gmail.com" class="lien-icone">
+            <img src="images/email.png" alt="facebook">
+            </a>
+</footer>
+
+        
+    </body>
+    </html>
